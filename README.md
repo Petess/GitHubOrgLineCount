@@ -7,5 +7,5 @@ The Script from : https://stackoverflow.com/questions/26881441/can-you-get-the-n
 This repo will list all the repositories from an organisation : 
 https://gist.github.com/ralphbean/5733076
 
-This requires the Github Python API
+This requires the Github Python API.
 
