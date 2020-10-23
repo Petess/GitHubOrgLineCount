@@ -11,7 +11,7 @@ def getCredentials():
 def GetRepos():
     g = Github( getCredentials() ) 
     count = 0
-    for repo in g.get_organization("GeoscienceAustralia").get_repos():
+    for repo in g.get_organization("GeoscienceAustralia").get_repos(type = 'public' ):
         print( repo.name )
         count = count + 1
     print( "There are " + str( count ) + " repositories" )
