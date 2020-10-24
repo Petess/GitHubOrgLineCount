@@ -9,7 +9,7 @@ do
     printf "Repository : $item" 
     git clone --depth 1 "$item" temp-linecount-repo &&
     # printf "('temp-linecount-repo' will be deleted automatically)\n\n\n" &&
-    cloc --csv temp-linecount-repo &&
+    cloc --sql 1 --sql-append temp-linecount-repo | sqlite3 code.db
     rm -rf temp-linecount-repo
 
     echo $item
