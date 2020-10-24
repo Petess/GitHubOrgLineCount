@@ -1,0 +1,5 @@
+https://github.com/GeoscienceAustralia/PyRate.git
+https://github.com/GeoscienceAustralia/sira.git
+https://github.com/GeoscienceAustralia/hazimp.git
+https://github.com/GeoscienceAustralia/conn4D.git
+https://github.com/GeoscienceAustralia/gocad-projector.git
