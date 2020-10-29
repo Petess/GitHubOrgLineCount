@@ -25,3 +25,7 @@ https://gist.github.com/ralphbean/5733076
 
 This requires the Github Python API.
 
+# Todo
+
+1. Currently all repositories are downloaded and deleted and also placed into the same directory. This results in the totals being across the entire organisation without the projects being separate. Instead getting the Zip files of the repositories with the option of retaining the downloaded repositories will be examined. 
+
