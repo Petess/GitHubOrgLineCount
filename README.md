@@ -13,6 +13,9 @@ A Github authorisation token also needs to be created and placed into a .creds f
 
 1. Run GetOrgRepos.py and redirect the output to a text file. 
 
+2. Seed the database that is to be used for the line count with something line : 
+    cloc --sql 1 README.md | sqlite3 code3.db
+
 2. Run repoListLineCount.sh on the text file from step one. 
 
 
