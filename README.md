@@ -30,4 +30,4 @@ This requires the Github Python API.
 
 # Todo
 
-1. Want to split the download and cunning of cloc into two parts
+1. Want to split the download and running of cloc into two parts. 
