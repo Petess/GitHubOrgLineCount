@@ -1,0 +1,7 @@
+EQIAT.txt 
+NSHA2018.txt 
+geoscience-portal-geonetwork.txt 
+rdi-portal-geonetwork.txt 
+geosciml.org.txt 
+FSDF
+FSDF-2015-documents.txt
