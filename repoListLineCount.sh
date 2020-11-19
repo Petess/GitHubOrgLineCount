@@ -10,10 +10,9 @@ do
     projectName=${item:0:${#item}-4}
     projectName2=${projectName##*/}
     
-    git clone --depth 1 "$item" temp-linecount-repo &&
-    printf "('temp-linecount-repo' will be deleted automatically)\n\n\n" &&
-    cloc --sql 1 --sql-project $projectName2 --sql-append temp-linecount-repo | sqlite3 code3.db
-    rm -rf temp-linecount-repo
+    git clone --depth 1 "$item" temp-repo/$projectName2 &&
+    cloc --out temp-project-totals/$projectName2.txt temp-repo/$projectName2 &&
+    rm -rf temp-repo/$projectName2 
 
     echo $item
 done
