@@ -13,11 +13,7 @@ A Github authorisation token also needs to be created and placed into a .creds f
 
 1. Run GetOrgRepos.py and redirect the output to a text file. 
 
-2. Seed the database that is to be used for the line count with something line : 
-    cloc --sql 1 README.md | sqlite3 code3.db
-
-2. Run repoListLineCount.sh on the text file from step one. 
-
+2. Run repoListLineCount.sh on the text file from step one, also with an argument of where the summaries of each repository will go
 
 # Notes
 
@@ -28,6 +24,7 @@ https://gist.github.com/ralphbean/5733076
 
 This requires the Github Python API.
 
+The script repoListLineCount.sh will run on any list of github repositories. Thus if a list is obtained from Bitbucket or other repository list that also works. 
+
 # Todo
 
-1. Want to split the download and running of cloc into two parts. 
